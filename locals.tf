@@ -5,4 +5,7 @@ locals {
     business_unit = "ecommerce"
     owner = "ecommerce-robot"
   }
+  resource_tags = {
+    Name = "dev-vpc"
+  }
 }
